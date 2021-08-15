@@ -1,0 +1,161 @@
+.top-image {
+    width: 450px;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+.top {
+    background-color: #005691;
+    padding-left: 10%;
+    padding-bottom: 6%;
+    padding-top: 4%;
+}
+
+.name {
+    color: #FAFAFA;
+    margin-bottom: 13%;
+    margin-top: 0;
+    font-size: 2.2rem;
+    font-family: 'Amaranth', sans-serif;
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 7px;
+}
+
+.catch-phrase {
+    color: #FAFAFA;
+    margin-bottom: 7%;
+    font-weight: 300;
+    margin-top: 0px;
+}
+
+#dev-logo {
+    width: 50px;
+    margin-right: 10px;
+    margin-left: 11.250px;
+}
+
+#dev-row {
+    margin-bottom: 0px;
+}
+
+.tagline {
+    color: #FAFAFA;
+    margin-bottom: 10%;
+}
+
+/* Benefits Section */
+
+.benefits {
+    background-color: #FAFAFA;
+    padding-bottom: 8%;
+    padding-top: 6%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+p {
+    color: #5f6769;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+}
+
+#benefit-heading {
+    text-align: center;
+    font-weight: 500;
+    font-size: 3.8rem;
+    margin-top: 0;
+    margin-bottom: 6%;
+}
+
+.benefit-details {
+    margin-top: 40px;
+    margin-bottom: 6%;
+}
+
+.benefit-details p {
+    padding-left: 0;
+}
+
+.persist-img {
+    width: 500px;
+    margin-left: 10%;
+    padding-top: 10px;
+}
+
+#pricing-section {
+    background-color: #005691;
+    color: #FAFAFA;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 6%;
+    padding-top: 4%;
+    text-align: center;
+}
+
+#pricing-heading {
+    font-weight: 500;
+    font-size: 3.8rem;
+    margin-top: 0;
+    margin-bottom: 6%;
+    margin-right: 1.5%;
+}
+
+#price-tag {
+    font-weight: bolder;
+}
+
+ul {
+    margin-top: 5%;
+    font-size: 1.4rem;
+}
+
+
+/* Delivery details and Action */
+
+.action {
+    background-color: #FAFAFA;
+    padding-bottom: 8%;
+    padding-top: 6%;
+    padding-left: 6%;
+    padding-right: 6%;
+}
+
+#delivery-details {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#security-disclaimer {
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fab {
+    vertical-align: bottom;
+    margin-right: 20px;
+}
+
+#actionBtn {
+    margin-top: 3%;
+    margin-left: 45%;
+}
+
+.final-section {
+    background-color: #005691;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 1%;
+    padding-top: 4%;
+    text-align: center;
+}
+
+.final-section p {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    color: #FAFAFA;
+    font-size: 1.1rem;
+}

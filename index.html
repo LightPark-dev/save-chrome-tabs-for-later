@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Save Chrome Tabs For Later</title>
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Amaranth:700|Roboto&display=swap" rel="stylesheet">
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="landing.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+    <link rel="icon" type="image/x-icon" href="./Assets/favicon.ico"/>
+</head>
+
+<body>
+    <!-- Title -->
+    <div class="top">
+        <div class="row">
+            <div class="col m6">
+                <div class="row" id="dev-row">
+                    <img id="dev-logo" src="./Assets/dev-logo.png">
+                    <h3 class="name">LightPark</h3>
+                </div>
+                
+                <h1 class="header catch-phrase">Save Chrome Tabs For Later</h1>
+                <h5 class="tagline">Be More Productive.</h5>
+                <a class="waves-effect blue-grey darken-4 btn-large hoverable log-in" href="#pricing-section">Go Pro</a>
+            </div>
+            <div class="col m6">
+                <img src="./Assets/App-view-screenshot.png" class="top-image">
+            </div>
+        </div>
+    </div>
+
+    <!-- Benefits -->
+    <div class="benefits">
+        <h1 class="header" id="benefit-heading">Pro Benefits</h1>
+
+        <h3>Persist Tabs</h3>
+        <h5>Individual control over each tab card whether it is persistent or temporary.</h6>
+        <div class="row benefit-details">
+            <p class="col m6" style="padding-left: 0px;">
+                By default, any tabs that you set aside are temporary i.e. the tab card is deleted once it is restored.
+                Now you can set any tab card to be persisted by simply checking the 'Persist' checkbox.
+                <br><br>This comes in handy for tabs that you open a lot, for example, 
+                a set of tabs that you fire up every single morning when you start work. 
+                Without this feature, you would have to remember to set these tabs aside at the end of your workday or else they will be lost.
+                <br><br>All persisted tabs are shown before temporary ones in the list. You can switch a tab back to being temporary by unchecking the 'Persist' checkbox.
+            </p>
+            <img src="./Assets/wt-temporary.png" class="persist-img" class="m6">
+        </div>
+        
+        <h3>Name Tabs</h3>
+        <h5>Give a name to a tab card to identify and make sense of it.</h6>
+        <div class="row benefit-details" style="margin-top: 0px; margin-bottom: 3%;">
+            <p class="col m6" style="padding-left: 0px; padding-top: 35px;">
+                Although a preview of 3 tabs is shown on each tab card, many times it is not enough as it does not convey 
+                the purpose of those tabs. You could have set aside 18 tabs some time ago but just looking at the first 3 tab names
+                shown on the card may not be enough to tell you what you were using them for. 
+                <br><br>This is where this feature comes to the rescue. You can optionally give a name to any tab card whenever you want.
+            </p>
+            <img src="./Assets/name-1.png" class="persist-img" class="m6">
+        </div>
+        <div class="row" style="margin-bottom: 6%;">
+            <img src="./Assets/name-2.png" class="persist-img m6">
+            <img src="./Assets/name-3.png" class="persist-img m6">
+        </div>
+
+        <h3>Performance Improvements</h3>
+        <h5>Improved performance of Restore functionality in pro version.</h6>
+    </div>
+
+    <!-- Pricing -->
+    <div id="pricing-section">
+        <h1 class="header" id="pricing-heading">Pricing</h1>
+        <h2 id="price-tag">INR 1,099/-</h2>
+        <h4>(One thousand and ninety-nine Indian Rupees)</h4>
+
+        <ul>
+            <li>One-time fee only.</li>
+            <li>Any future updates free.</li>
+            <li>Use on any number of devices where you are signed in with your Google account.</li>
+            <li>Pay securely through Stripe.</li>
+        </ul>
+    </div>
+
+    <!-- Delivery Details -->
+    <div class="action">
+        <p id="delivery-details">
+            Once you successfully complete your payment, you will receive an activation key within 2 business days on the 
+            <u>email you entered during Stripe checkout.</u> This email can be any of your email addresses, 
+            it does not need to be the one with which you are signed into Chrome Browser.
+            <br><br>We recommend that you keep an eye on all your inbox folders including spam. 
+            Sometimes your payment might take some time to reflect on our end.
+            If you don't receive an email in 5 days from <b>dev.skstudios@gmail.com</b> just drop a mail on this email and 
+            we will help you out. 
+        </p>
+
+        <p id="security-disclaimer">
+            Disclaimer: This is a secure https web page. It has no idea who you are or your payment information. 
+            Your payment is handled only by Stripe in a secure way.
+        </p>
+
+        <a id="actionBtn" class="waves-effect blue-grey darken-4 btn-large hoverable" 
+           href="https://buy.stripe.com/test_4gw2au59H0mo4HC3cc">
+        <i class="fab fa-stripe"></i>Purchase</a>
+    </div>
+
+    <!-- Copyright and Policy Section -->
+    <div class="final-section">
+        <p>Refund Policy: We do not offer refunds. However, if you are not able to access the pro version due to technical problems,
+            reach out to us at <b>dev.skstudios@gmail.com</b> and we will help you out or offer a refund.
+        </p>
+        <p>© Copyright 2021 LightPark</p>
+    </div>
+
+</body>
