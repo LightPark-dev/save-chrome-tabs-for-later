@@ -110,6 +110,11 @@ ul {
     font-size: 1.4rem;
 }
 
+#pricing-section p {
+    color: #FAFAFA;
+    font-size: 1.1rem;
+    margin-top: 5%;
+}
 
 /* Delivery details and Action */
 
@@ -144,7 +149,7 @@ ul {
 }
 
 .final-section {
-    background-color: #005691;
+    background-color: #263238;
     padding-right: 10%;
     padding-left: 10%;
     padding-bottom: 1%;
@@ -157,5 +162,28 @@ ul {
     margin-right: auto;
     width: 70%;
     color: #FAFAFA;
-    font-size: 1.1rem;
+    font-size: 1rem;
+}
+
+.promotion {
+    background-color: #005691;
+    color: #FAFAFA;
+    text-align: center;
+    padding-top: 6%;
+    padding-bottom: 6%;
+}
+
+.promotion p {
+    color: #FAFAFA;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+#promotion-heading {
+    margin-top: 0;
+    margin-bottom: 3%;
 }
