@@ -44,6 +44,11 @@
     margin-bottom: 10%;
 }
 
+#product-hunt-medal {
+    vertical-align: top;
+    margin-left: 40px;
+}
+
 /* Benefits Section */
 
 .benefits {
